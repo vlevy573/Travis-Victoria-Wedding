@@ -1,0 +1,12 @@
+---
+layout: info
+title: Details
+billboard_class: billboard-ramp-walk
+include: details.html
+---
+
+{% if site.context == "lbc" %}
+  {% include lbc_details.html %}
+{% else %}
+  {% include chi_details.html %}
+{% endif %}
