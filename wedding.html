@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The first meta tag helps to make our website responsive-->
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!--We nested an image tag in the anchor tag because clicking the logo should return you to the home page.-->
+            <h1 style="color: white;"><b>Travis & Victoria</b></h1>
+            <!--<img src="eduford_img/logo.png">-->
+            <!--This div class groups our links together.-->
+            <div class="nav-links" id="navLinks">
+                <!--The nav bar is an ul with nested anchor tags.-->
+                <i class="f1" onclick="hideMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-octagon" viewBox="0 0 16 16">
+                        <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1 1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                </i>
+                <ul>
+                    <li style="font-size:16px;"><a href="Registry.html">REGISTRY</a></li>
+                    <li style="font-size:16px;"><a href="Story.html">OUR STORY</a></li>
+                    <!-- <li><a href="RSVP.html">RSVP</a></li> -->
+                </ul>
+            </div>
+            <i class="f1" onclick="showMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layout-sidebar-reverse" viewBox="0 0 16 16">
+                    <path d="M16 3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3zm-5-1v12H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h9zm1 0h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-2V2z"/>
+                  </svg>
+            </i>
+        </nav>
+
+        <div class="text-box">
+            <h1>We're finally having<br>our wedding!</h1>
+            <p style="font-size:35px; ">
+                Celebrating October 18, 2025
+            </p>
+            <a href="Story.html" class="hero-btn" style="font-size:16px;">Our story</a>
+        </div>
+
+    </section>
+
+    <!--Details-->
+    <!--Bottom part of the home page-->
+    <section class="details">
+        <h1>Join Us</h1>
+        <p style="font-size:20px;">We happily extend our invitation to you.</p>
+        
+        <!--Adding three different columns.-->
+        <div class="row">
+            <div class="details-col">
+                <h2>The Ceremony</h2>
+                <p style="font-size:18px;color:"><span style="font-weight:bold;">10:00 AM</span><br>Cos House, La Villita <br> 418 Villita Street <br>San Antonio, TX 78205</p>
+            </div>
+            <div class="details-col">
+                <h2>The Reception</h2>
+                <p style="font-size:18px;"><span style="font-weight:bold;">11:00 AM to 4:00 PM</span><br>The Stetson at Hilton Palacio Del Rio<br>200 South Alamo Street <br>San Antonio, TX 78205</p>
+            </div>
+            <div class="details-col">
+                <h2>The After Party</h2>
+                <p style="font-size:18px;"><span style="font-weight:bold;">4:00 PM Onwards </span><br>(Optional)<br>The River Walk <br>San Antonio, TX 78205</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-------Venues------->
+    <section class="venues">
+        <h1>The Venues</h1>
+        <p style="font-size:20px;">A closer look at the Ceremony, Reception and After Party venues.</p>
+
+        <div class="row">
+            <div class="venues-col">
+                <img src="img/cos3.jpg">
+                <div class="layer">
+                    <h3><b>CEREMONY</b><br>Cos House, <br>La Villita</h3>
+                </div>
+            </div>
+            <div class="venues-col">
+                <img src="img/stet3.jpg">
+                <div class="layer">
+                    <h3><b>RECEPTION</b><br>The Stetson,<br> Hilton Palacio del Rio</h3>
+                </div>
+            </div>
+            <div class="venues-col">
+                <img src="img/riv.jpg">
+                <div class="layer">
+                    <h3><b>AFTER PARTY</b><br>San Antonio<br>River Walk</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------Accomodation-------->
+    <section class="accomodation">
+        <h1>Accomodation</h1>
+        <p style="font-size:20px;">In addition to the Hilton Palacio del Rio, these nearby cozy hotels will treat you well.</p>
+
+        <div class="row">
+            <div class="accomodation-col">
+                <img src="img/emily.jpg" alt="">
+                <h3>The Emily Morgan Hotel</h3>
+                <h4> 705 E Houston St, San Antonio, TX 78205<br><a href=" https://www.emilymorganhotel.com"> www.emilymorganhotel.com</a> <br> Reservations: <a href="">800-824-6674</a></h4>
+            </div>
+            <div class="accomodation-col">
+                <img src="img/home2.avif" alt="">
+                <h3>Home2 Suites by Hilton San Antonio Downtown  Riverwalk, TX</h3>
+                <h4>603 Navarro St, San Antonio, TX 78205<br><a href="https://www.hilton.com/en/hotels/satriht-home2-suites-san-antonio-downtown-riverwalk-tx/"> Website | </a> &nbsp; Phone:  <a href="">210-354-4366</a></h4>
+            </div>
+            <div class="accomodation-col">
+                <img src="img/hampton.avif" alt="">
+                <h3>Hampton Inn & Suites San Antonio-Downtown/Market Square</h3>
+                <h4> 411 S Flores St, San Antonio, TX 78204<br><a href="https://www.hilton.com/en/hotels/satsfhx-hampton-suites-san-antonio-downtown-market-square/">Website | </a> &nbsp; Phone:  <a href="">210-212-7000</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------Call To Action----------------->
+
+    <section class="cta">
+        <a href="RSVP.html" class="hero-btn">RSVP</a>
+    </section>
+
+
+
+    <!--using js to create functions so that our menu icons can work properly.-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
