@@ -78,7 +78,7 @@
                     <input type="email" name="entry.1077186540" id="entry.1077186540" placeholder="Enter email address" required>
                     <input type="text" name="entry." id="entry." placeholder="Enter Any dietary restrictions" required>
                     <textarea name="entry.1330317765" id="entry.1330317765" placeholder="Message" rows="8" required></textarea>
-                    <button type="submit" velue="Submit" class="hero-btn red-btn">Send Message</button>
+                    <input type="submit" velue="Submit">
                 </form>
 
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
@@ -87,6 +87,7 @@
                 <script type="text/javascript">var submitted=false;</script>
                 <script type="text/javascript">
                 $('#gform').on('submit', function(e) {
+                    $('#gform *').fadeOut(2000);
                     $('#gform').prepend('Your submission has been processed...');
                     });
                 </script>
