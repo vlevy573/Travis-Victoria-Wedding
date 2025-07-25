@@ -257,7 +257,7 @@ h3{
 }
 
 .layer:hover{
-    background: rgba(137, 73, 162, 1);
+    background: rgba(137, 73, 162, .08);
 }
 
 .layer h3{
