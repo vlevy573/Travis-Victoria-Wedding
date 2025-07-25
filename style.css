@@ -158,7 +158,7 @@ nav .f1{
         display: block;
         color: #fff;
         margin: 10px;
-        font-size: 22px;
+        font-size: 24px;
         cursor: pointer; 
     }
 
@@ -404,7 +404,7 @@ h3{
 .red-btn {
     border: 1px solid #496400;
     background: transparent;
-    color: #a81ac4cc;
+    color: #496400;
 }
 
 .red-btn:hover{
