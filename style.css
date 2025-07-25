@@ -116,8 +116,8 @@ The inline block property allows us to position our links horizontally.
 
 /*Adding the button hover effect*/
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #a81ac4cc;
+    background: #a81ac4cc;
     transition: 1s;
 }
 
