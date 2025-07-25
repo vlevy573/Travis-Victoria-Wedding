@@ -116,7 +116,7 @@ The inline block property allows us to position our links horizontally.
 
 /*Adding the button hover effect*/
 .hero-btn:hover{
-    border: 1px solid #a81ac4cc;
+    border: 1px solid #496400;
     background: #a81ac4cc;
     transition: 1s;
 }
@@ -402,7 +402,7 @@ h3{
 }
 
 .red-btn {
-    border: 1px solid #a81ac4cc;
+    border: 1px solid #496400;
     background: transparent;
     color: #a81ac4cc;
 }
@@ -443,7 +443,7 @@ h3{
  }
 
  .story-right h3{
-    background: #a81ac4cc;
+    background: #496400;
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
@@ -495,7 +495,7 @@ h3{
 
   .RSVP-col div .icons{
     font-size: 28px;
-    color: #a81ac4cc;
+    color: #496400;
     margin: 10px;
     margin-right: 30px;
   }
