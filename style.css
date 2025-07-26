@@ -109,7 +109,7 @@ The inline block property allows us to position our links horizontally.
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 18px;
+    font-size: 24px;
     background: transparent;
     position: relative;
     cursor: pointer;
